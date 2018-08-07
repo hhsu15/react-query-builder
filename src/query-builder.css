@@ -1,0 +1,53 @@
+.rule, .ruleGroup  {
+  margin-top: 1.0rem;
+  margin-left: 1.0rem;
+  content: 500px;
+
+
+}
+.ruleGroup {
+  padding: 1.0rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: rgba(255, 233, 172, 0.5);
+}
+
+.my-class {
+	color:white;
+	background-color: #555555;
+	font-size: 16px;
+}
+
+.my-rule{
+	font-size: 16px;
+}
+
+/*.value input  {
+	color: green;
+	background-color: #3CBC8D;
+	padding: 12px 20px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}*/
+
+input[type=text]{
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	padding: 2px;
+	display: inline-block;
+	border-radius: 4px;
+	font-size: 16px;
+	background-color: white;
+}
+
+/*input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}*/
